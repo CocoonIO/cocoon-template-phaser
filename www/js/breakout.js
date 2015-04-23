@@ -24,6 +24,8 @@ var introText;
 var s;
 
 function create() {
+    
+    game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 
     game.physics.startSystem(Phaser.Physics.ARCADE);
 
