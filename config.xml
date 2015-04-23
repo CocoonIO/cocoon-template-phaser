@@ -31,8 +31,8 @@
         <icon src="res/android/mdpi.png" density="mdpi" />
         <icon src="res/android/hdpi.png" density="hdpi" />
         <icon src="res/android/xhdpi.png" density="xhdpi" />
-        <icon src="res/android/xxhdpi.png" density="xxhdpi" />
-        <icon src="res/android/xxxhdpi.png" density="xxxhdpi" />
+          <!--<icon src="res/android/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/android/xxxhdpi.png" density="xxxhdpi" />-->
     </platform>
 
     <!-- ANDROID -->
@@ -41,8 +41,8 @@
         <icon src="res/android/mdpi.png" density="mdpi" />
         <icon src="res/android/hdpi.png" density="hdpi" />
         <icon src="res/android/xhdpi.png" density="xhdpi" />
-        <icon src="res/android/xxhdpi.png" density="xxhdpi" />
-        <icon src="res/android/xxxhdpi.png" density="xxxhdpi" />
+        <!--<icon src="res/android/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/android/xxxhdpi.png" density="xxxhdpi" /> -->
 
         <!-- you can use any density that exists in the Android project -->
         <splash src="res/screen/android/drawable-land-hdpi/screen.png" density="land-hdpi"/>
