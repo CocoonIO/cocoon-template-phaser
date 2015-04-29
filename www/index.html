@@ -1,6 +1,5 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <title>Phaser - Break out</title>
@@ -11,9 +10,15 @@
     }
     </style>
 </head>
-
 <body>
     <script type="text/javascript" src="js/breakout.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript">
+	    document.addEventListener("deviceready", function() {
+	        setTimeout(function() {
+	            navigator.splashscreen.hide();
+	        }, 2000, false);
+	    });
+    </script>
 </body>
-
 </html>
