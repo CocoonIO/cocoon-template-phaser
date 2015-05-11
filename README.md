@@ -50,6 +50,8 @@ As you can see, it is not neccessary to include *plugins*, *platforms* or *hooks
 
 * Click [here](orb.enclavegames.com) to test this demo on your browser.
 * Demo original [source code](https://github.com/EnclaveGames/Cyber-Orb)
+* [2D maze game with device orientation](https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation)
+* Device orientation and vibration tutorial (https://hacks.mozilla.org/2015/04/mobile-game-development-with-the-device-orientation-and-vibration-apis/)
 
 ### About the author
 
