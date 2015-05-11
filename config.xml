@@ -1,22 +1,24 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<widget id="io.template.phaser.breakout" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:cocoon="http://cocoon.io/ns/1.0">
+<widget id="io.template.phaser.orb" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:cocoon="http://cocoon.io/ns/1.0">
     <name>Phaser template</name>
     <description>
-        Phaser template for Cocoon.io cloud compiler based on Break out example at https://github.com/photonstorm/phaser-examples by photonstorm 
+        Phaser template for Cocoon.io cloud compiler based on Enclave Cyber orb demo at https://github.com/EnclaveGames/Cyber-Orb.
     </description>
-    <author email="rdavey@gmail.com" href="http://www.photonstorm.com">
-        Richard Davey
+    <author email="contact@enclavegames.com" href="http://www.enclavegames.com">
+        Enclave games
     </author>
 
     <content src="index.html" />
     <access origin="*" />
 
-    <preference name="Orientation" value="landscape" />
+    <preference name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="true" />
 
     <cocoon:plugin name="org.apache.cordova.splashscreen" />
     <cocoon:plugin name="com.ludei.canvasplus.ios" />
-    <cocoon:plugin name="com.ludei.canvasplus.android" />   
+    <cocoon:plugin name="com.ludei.canvasplus.android" />  
+
+    <cocoon:plugin name="org.apache.cordova.vibration"/> 
     
     <cocoon:platform name="ios" version="4.0.0-dev" />
     <cocoon:platform name="android" version="4.0.0-dev" />
