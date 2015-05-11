@@ -5,13 +5,11 @@ Phaser template
 
 This demo is based on [Andrzej Mazur'](http://end3r.com/) [Cyber orb demo](https://github.com/EnclaveGames/Cyber-Orb). It has been adapted in order to have a cordova based structure. 
 
-This demo is built using [Phaser](https://phaser.io/) and [Cocoon Canvas+](https://cocoon.io/doc/canvas_plus) in portrait view and fullscreen. It includes [org.apache.cordova.vibration plugin](https://github.com/apache/cordova-plugin-vibration).
+This demo is built using [Phaser](https://phaser.io/) and [Cocoon Canvas+](https://cocoon.io/doc/canvas_plus) in portrait view and fullscreen. 
 
-## How to use this repo
+It includes additional plugins: 
 
-In order to test this repo at the cloud compiler, you can select this template directly in the guided creation wizard or just copy the .git url from this repo and create a github based project. 
-
-This template is fully configured and adapted so you can compile the project just after creation and testing it in your devices as soon as the compilation is complete. 
+* [org.apache.cordova.vibration](https://github.com/apache/cordova-plugin-vibration)
 
 ## How to use this repo
 
@@ -31,11 +29,11 @@ template/
 | 	`-- screen/
 `-- www/
 ``````````````````
-**res:** This folder contains all the icons for Android, iOS and the splash screens used in the project.
+* **res:** This folder contains all the icons for Android, iOS and the splash screens used in the project.
 
-**www:** This folder contains the source code of the project. 
+* **www:** This folder contains the source code of the project. 
 
-**config.xml:** This file contains the project configuration.
+* **config.xml:** This file contains the project configuration.
 
 As you can see, it is not neccessary to include *plugins*, *platforms* or *hooks*. 
 
@@ -48,7 +46,7 @@ As you can see, it is not neccessary to include *plugins*, *platforms* or *hooks
 * [Phaser examples](https://phaser.io/examples)
 * [Getting started with phaser](https://phaser.io/tutorials/getting-started)
 
-### About the app 
+### About the game 
 
 * Click [here](orb.enclavegames.com) to test this demo on your browser.
 * Demo original [source code](https://github.com/EnclaveGames/Cyber-Orb)
