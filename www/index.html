@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8" />
-	<title>Cyber Orb demo</title>
-	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-	<style> body { margin: 0; background: #2B2E31 url(img/screen-bg.png) repeat; } </style>
-	<script src="src/phaser.js"></script>
-	<script src="src/Boot.js"></script>
-	<script src="src/Preloader.js"></script>
-	<script src="src/MainMenu.js"></script>
-	<script src="src/Howto.js"></script>
-	<script src="src/Game.js"></script>
+    <meta charset="utf-8" />
+    <title>Cyber Orb demo</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <style>
+    body {
+        margin: 0;
+        background: #2B2E31 url(img/screen-bg.png) repeat;
+    }
+    </style>
+    <script src="src/phaser.js"></script>
+    <script src="src/Boot.js"></script>
+    <script src="src/Preloader.js"></script>
+    <script src="src/MainMenu.js"></script>
+    <script src="src/Howto.js"></script>
+    <script src="src/Game.js"></script>
 </head>
+
 <body>
-<script>
-(function() {
-	var game = new Phaser.Game(320, 480, Phaser.CANVAS, 'game');
-	game.state.add('Boot', Ball.Boot);
-	game.state.add('Preloader', Ball.Preloader);
-	game.state.add('MainMenu', Ball.MainMenu);
-	game.state.add('Howto', Ball.Howto);
-	game.state.add('Game', Ball.Game);
-	game.state.start('Boot');
-})();
-</script>
+    <script>
+    document.addEventListener("deviceready", function() {
+        setTimeout(function() {
+            navigator.splashscreen.hide();
+        }, 2000, false);
+    });
+    (function() {
+        var game = new Phaser.Game(320, 480, Phaser.CANVAS, 'game');
+        game.state.add('Boot', Ball.Boot);
+        game.state.add('Preloader', Ball.Preloader);
+        game.state.add('MainMenu', Ball.MainMenu);
+        game.state.add('Howto', Ball.Howto);
+        game.state.add('Game', Ball.Game);
+        game.state.start('Boot');
+    })();
+    </script>
 </body>
+
 </html>

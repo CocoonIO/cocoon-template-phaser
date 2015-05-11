@@ -2,10 +2,10 @@
 <widget id="io.template.phaser.orb" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:cocoon="http://cocoon.io/ns/1.0">
     <name>Phaser template</name>
     <description>
-        Phaser template for Cocoon.io cloud compiler based on Enclave Cyber orb demo at https://github.com/EnclaveGames/Cyber-Orb.
+        Phaser template for Cocoon.io cloud compiler based on Enclave Games' Cyber Orb demo at https://github.com/EnclaveGames/Cyber-Orb.
     </description>
-    <author email="contact@enclavegames.com" href="http://www.enclavegames.com">
-        Enclave games
+    <author email="andrzej.mazur@end3r.com" href="http://www.enclavegames.com">
+        Andrzej Mazur
     </author>
 
     <content src="index.html" />
