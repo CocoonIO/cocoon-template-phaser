@@ -3,7 +3,7 @@ Phaser template
 
 ## Introduction
 
-This demo is based on [Andrzej Mazur'](http://end3r.com/) [Cyber orb demo](https://github.com/EnclaveGames/Cyber-Orb). It has been adapted in order to have a cordova based structure. 
+This demo is based on [Andrzej Mazur's](http://end3r.com/) [Cyber orb demo](https://github.com/EnclaveGames/Cyber-Orb). It has been adapted in order to have a cordova based structure. 
 
 This demo is built using [Phaser](https://phaser.io/) and [Cocoon Canvas+](https://cocoon.io/doc/canvas_plus) in portrait view and fullscreen. 
 
