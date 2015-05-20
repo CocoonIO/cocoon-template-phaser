@@ -7,12 +7,31 @@
     <author email="andrzej.mazur@end3r.com" href="http://end3r.com/">
         Andrzej Mazur
     </author>
+    
+    <!-- Shown in the wizard -->
+    <icon src="icon.png" />
 
     <content src="index.html" />
     <access origin="*" />
 
-    <!-- Shown in the wizard -->
-    <icon src="icon.png" />
+    <plugin name="cordova-plugin-whitelist" version="1"/>
+
+    <access origin="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+
+    <platform name="android">
+        <allow-intent href="market:*"/>
+    </platform>
+
+    <platform name="ios">
+        <allow-intent href="itms:*"/>
+        <allow-intent href="itms-apps:*"/>
+    </platform>
 
     <preference name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="true" />
@@ -22,9 +41,6 @@
     <cocoon:plugin name="com.ludei.canvasplus.android" />  
 
     <cocoon:plugin name="org.apache.cordova.vibration"/> 
-    
-    <cocoon:platform name="ios" version="4.0.0-dev" />
-    <cocoon:platform name="android" version="4.0.0-dev" />
 
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="5000" />
