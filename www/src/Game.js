@@ -152,7 +152,6 @@ Ball.Game.prototype = {
 	wallCollision: function() {
 		if(this.audioStatus) {
 			this.bounceSound.play();
-			alert("sound");
 		}
 		// Vibration API
 		if("vibrate" in window.navigator) {
