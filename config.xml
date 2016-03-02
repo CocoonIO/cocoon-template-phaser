@@ -20,5 +20,5 @@
     <cocoon:plugin name="com.ludei.canvasplus.ios" />
     <cocoon:plugin name="com.ludei.canvasplus.android" />  
 
-    <cocoon:plugin name="org.apache.cordova.vibration"/> 
+    <cocoon:plugin name="cordova-plugin-vibration"/> 
 </widget>
