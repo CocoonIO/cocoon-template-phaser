@@ -153,10 +153,6 @@ Ball.Game.prototype = {
 		if(this.audioStatus) {
 			this.bounceSound.play();
 		}
-		// Vibration API
-		if("vibrate" in window.navigator) {
-			window.navigator.vibrate(100);
-		}
 	},
 	handleOrientation: function(e) {
 		// Device Orientation API

@@ -7,10 +7,6 @@ This demo is based on [Andrzej Mazur's](http://end3r.com/) [Cyber orb demo](http
 
 This demo is built using [Phaser](https://phaser.io/) and [Cocoon Canvas+](https://cocoon.io/doc/canvas_plus) in portrait view and fullscreen. 
 
-It includes additional plugins: 
-
-* [org.apache.cordova.vibration](https://github.com/apache/cordova-plugin-vibration)
-
 ## How to use this repo
 
 In order to test this repo at the cloud compiler, you can select this template directly in the guided creation wizard or just copy the .git url from this repo and create a github based project. 
